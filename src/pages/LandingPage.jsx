@@ -11,8 +11,7 @@ import Trust from '../components/Trust';
 import CTA from '../components/CTA';
 import Footer from '../components/Footer';
 import TechOverview from "../components/TechOverview.jsx";
-import AnimatedSection from "../components/AnimatedSection.jsx"; // <-- ¡IMPORTA EL ENVOLTORIO!
-import PrivacyPolicy from "../components/PrivacyPolicy.jsx";
+import AnimatedSection from "../components/AnimatedSection.jsx";
 
 function LandingPage() {
     return (
@@ -20,7 +19,6 @@ function LandingPage() {
             <Header />
             <Hero />
 
-            {/* --- ENVUELVE CADA SECCIÓN CON AnimatedSection --- */}
             <AnimatedSection>
                 <Benefits />
             </AnimatedSection>
@@ -55,10 +53,6 @@ function LandingPage() {
 
             <AnimatedSection>
                 <CTA />
-            </AnimatedSection>
-
-            <AnimatedSection>
-                <PrivacyPolicy />
             </AnimatedSection>
 
             <Footer />
