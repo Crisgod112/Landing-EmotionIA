@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/"
+  to = "/terminos.html"
+  status = 301
+  force = true
