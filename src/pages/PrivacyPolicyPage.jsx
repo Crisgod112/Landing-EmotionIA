@@ -16,7 +16,6 @@ const PrivacyPolicyPage = () => {
             content: "Para el uso de APRENDIA Emotion AI, podemos recabar los siguientes datos:",
             list: [
                 "Datos de identificación: nombre, correo electrónico",
-                "Datos académicos: institución educativa, nivel educativo",
                 "Datos biométricos sensibles: imagen facial capturada a través de la cámara del dispositivo para análisis de expresiones faciales",
                 "Datos de navegación y uso de la plataforma: tiempo de sesión, progreso en lecciones, interacciones con el sistema"
             ]
@@ -112,7 +111,7 @@ const PrivacyPolicyPage = () => {
                         <div className="mt-4 md:mt-6 rounded-lg bg-white p-4 md:p-6">
                             <p className="mb-2 text-sm md:text-base font-semibold text-gray-900">Para ejercer sus derechos ARCO, puede enviar una solicitud a:</p>
                             <p className="text-sm md:text-base text-gray-700">
-                                <strong>Correo electrónico:</strong> <a href="mailto:privacidad@upchiapas.edu.mx" className="text-primary hover:underline break-all">privacidad@upchiapas.edu.mx</a>
+                                <strong>Correo electrónico:</strong> <a href="mailto:rubendarioh98@gmail.com" className="text-primary hover:underline break-all">rubendarioh98@gmail.com</a>
                             </p>
                             <p className="mt-2 text-xs md:text-sm text-gray-600">
                                 Su solicitud deberá contener: nombre completo, domicilio, identificación oficial, descripción clara de los datos sobre los que busca ejercer sus derechos, y cualquier documento que facilite la localización de sus datos.
