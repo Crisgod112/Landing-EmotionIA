@@ -7,6 +7,7 @@ const navLinks = [
     { title: "Tecnología", href: "#tecnologia" },
     { title: "Datos", href: "#datos" },
     { title: "Contacto", href: "#cta" },
+    { title: "Términos", href: "#privacidad" },
 ];
 
 const Header = () => {
